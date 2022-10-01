@@ -1,0 +1,13 @@
+MacでCocoapodsが使えない時に対処する方法
+
+1. sudo gem install cocoapods → これは普通にインストールコマンドなので真っ先にお願いします
+
+2. sudo gem install ffi →　↑のコマンドを入力したときにffiというエラーが発生したときにお願いします
+
+3. xcode-select --install → これは時間がかかるのでできれば避けたいです。このコマンドの実行にあまりにも時間がかかる場合(目安30分)はMacを再起動してください
+
+4. brew install cocoapods → homebrewがインストールされていることが前提です
+
+5. brew link --overwrite cocoapods → これを入力してbrew経由でインストールしたbrewをMacの標準コマンドとして実行できるようにします
+
+6. pod --version → バージョン確認
