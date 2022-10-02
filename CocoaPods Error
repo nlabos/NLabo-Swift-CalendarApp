@@ -11,3 +11,17 @@ MacでCocoapodsが使えない時に対処する方法
 5. brew link --overwrite cocoapods → これを入力してbrew経由でインストールしたbrewをMacの標準コマンドとして実行できるようにします
 
 6. pod --version → バージョン確認
+
+
+------------------------------------------------------------------------------------------
+
+Swift Package Managerを使う場合
+
+RealmSwift
+https://github.com/realm/realm-swift
+
+FSCalendar
+https://github.com/xqqlv/FSCalendar
+
+CalculateCalendarLogic
+https://github.com/fumiyasac/handMadeCalendarAdvance
