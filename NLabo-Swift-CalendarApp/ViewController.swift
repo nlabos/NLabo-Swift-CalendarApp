@@ -142,6 +142,7 @@ class ViewController: UIViewController, FSCalendarDelegate, FSCalendarDelegateAp
     func getschedule(date: String) {
         let realm = try! Realm()
         var result = realm.objects(Event.self)
+        //ここは'と"が両方存在しているので数と場所に注意してください
         result = result.filter("date = '\(date)'")
         if let event = result.last {
             print(event.event)
