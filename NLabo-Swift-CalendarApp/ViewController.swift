@@ -44,7 +44,7 @@ class ViewController: UIViewController, FSCalendarDelegate, FSCalendarDelegateAp
         titleLabel.text = "主なスケジュール"
         titleLabel.backgroundColor = .white
         titleLabel.textAlignment = .center
-        titleLabel.font = UIFont.systemFont(ofSize: 20.0)
+        titleLabel.font = UIFont.boldSystemFont(ofSize: 20.0)
         scheduleView.addSubview(titleLabel)
         
         //スケジュール内容表示設定
